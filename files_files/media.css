@@ -1,0 +1,121 @@
+
+.delay1{
+	-webkit-animation-delay: 0.5s; /* Safari and Chrome */
+	animation-delay: 0.5s;
+}
+.delay2{
+	-webkit-animation-delay: 1.0s; /* Safari and Chrome */
+	animation-delay: 1.0s;
+}
+.delay3{
+	-webkit-animation-delay: 1.5s; /* Safari and Chrome */
+	animation-delay: 1.5s;
+}
+.delay4{
+	-webkit-animation-delay: 2.0s; /* Safari and Chrome */
+	animation-delay: 2.0s;
+}
+.delay5{
+	-webkit-animation-delay: 2.5s; /* Safari and Chrome */
+	animation-delay: 2.5s;
+}
+.delay6{
+	-webkit-animation-delay: 3.0s; /* Safari and Chrome */
+	animation-delay: 3.0s;
+}
+.delay7{
+	-webkit-animation-delay: 3.5s; /* Safari and Chrome */
+	animation-delay: 3.5s;
+}
+.delay8{
+	-webkit-animation-delay: 4.0s; /* Safari and Chrome */
+	animation-delay: 4.0s;
+}
+
+/* MEDIA FOR RESPONSIVE */
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 2500px){
+	.container{width:1170px;}
+
+}
+
+
+
+@media screen and (min-width: 992px) and (max-width:1199px){
+	.container{width:970px;}
+
+
+	/* odometer fix */
+	.odometer{width:100% !important;text-align:center !important;}
+	.c2-title p.join{width:100% !important;}
+	.c2-title p.text{width:100% !important;color:#ffffff;padding:0px 0px 0px 0px;font-size:21px;font-weight:400;font-family:'Raleway';}
+	
+	.c1-main-container{padding:15px 0px 0px 0px !important;}
+	
+	/* media fix for padding for second icons row */
+	.modal-column-container-2{padding:5px 0px 0px 0px !important;}
+	.col-content-2{padding:25px 0px 45px 0px !important;line-height:26px;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+	
+	/* media query for title top on main page */
+	.c1-main-container{padding:45px 0px 0px 0px;}
+	.c1-title-top{font-size:52px !important;}
+	.c1-title{font-size:72px !important;}
+	.c1-divider-container{padding:15px 0px 5px 0px !important;}
+	
+	/* odometer fix */
+	.odometer{width:100% !important;text-align:center !important;}
+	.c2-title p.join{width:100% !important;}
+	.c2-title p.text{width:100% !important;color:#ffffff;padding:0px 0px 0px 0px;font-size:21px;font-weight:400;font-family:'Raleway';}
+	
+	/* media query for contact form */
+	.s1-col-md-left{padding:0px 0px 0px 0px !important;}
+	.s1-col-md-right{padding:0px 0px 0px 0px !important;}
+	.s1-col-contact{padding:60px 15px 0px 15px !important;}
+	
+	/* media fix for padding for second icons row */
+	.modal-column-container-2{padding:5px 0px 0px 0px !important;}
+	.col-content-2{padding:25px 0px 45px 0px !important;line-height:26px;}
+	
+	
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 767px){
+	
+	/* media query for title top on main page */
+	.c1-main-container{padding:45px 0px 0px 0px;}
+	.c1-title-top{font-size:52px !important;}
+	.c1-title{font-size:72px !important;}
+	.c1-divider-container{padding:15px 0px 5px 0px !important;}
+	
+	/* odometer fix */
+	.odometer{width:100% !important;text-align:center !important;}
+	.c2-title p.join{width:100% !important;}
+	.c2-title p.text{width:100% !important;color:#ffffff;padding:0px 0px 0px 0px;font-size:21px;font-weight:400;font-family:'Raleway';}
+	
+	/* media query for contact form */
+	.s1-col-md-left{padding:0px 0px 0px 0px !important;}
+	.s1-col-md-right{padding:0px 0px 0px 0px !important;}
+	.s1-col-contact{padding:60px 15px 0px 15px !important;}
+	
+	/* media fix for padding for second icons row */
+	.modal-column-container-2{padding:5px 0px 0px 0px !important;}
+	.col-content-2{padding:25px 0px 45px 0px !important;line-height:26px;}
+	
+}
+
+
+
+
+
+
+
+
+
+
+

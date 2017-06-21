@@ -1,0 +1,1 @@
+function f(t,e,i,d,a){this.title=t,this.url=e,this.date=i,this.time=d,this.descr=a}function compareTime(t,e){return t.date==e.date?t.time<e.time?1:t.time>e.time?-1:0:t.date<e.date?1:t.date>e.date?-1:void 0}

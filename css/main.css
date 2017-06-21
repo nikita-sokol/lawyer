@@ -1,0 +1,93 @@
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.scrollToTop {
+  z-index: 1005;
+}
+body {
+  background: #dfdfdf;
+  min-width: 300px;
+}
+#header {
+  margin-bottom: 50px;
+  background: #dfdfdf url(../img/bg-header.jpg) no-repeat;
+  background-position: bottom 0 left -webkit-calc(50% + 230px);
+  background-position: bottom 0 left calc(50% + 230px);
+  background-size: auto 245px;
+}
+#sidebar {
+  float: left;
+  width: 250px;
+  position: relative;
+  padding: 0px 0px 20px;
+}
+#content {
+  float: left;
+  width: 750px;
+  padding: 0;
+}
+#article {
+  margin-top: 0px;
+}
+#sidebar .sidebar-block .menu > li > a {
+  font: 14px/14px open_sans;
+  display: block;
+  padding: 10px 0 5px 15px;
+  background: #474747;
+  color: #fff;
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #474747;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.your-lawyer-img {
+  width: 300px;
+  margin: 5px;
+  float: left;
+}
+#news {
+  padding: 0;
+  background: #dfdfdf url(../img/bg_footer.jpg) center top 30px no-repeat;
+  background-size: cover;
+}
+#news .newsbar-block .news li {
+  float: left;
+  width: 300px;
+  margin: 0 35px 0 0;
+  background: url(../img/news-line.png) no-repeat right top;
+}
+/* -------------- chleny-kollegii ------------- */
+.member-board + .member-board {
+  margin-top: 70px;
+}
+.board-visible {
+  display: none;
+}
+/* -------------- kontakty ------------- */
+#content .content-inner {
+  margin-right: 0;
+}
+#map {
+  width: 500px;
+  height: 400px;
+  position: relative;
+}
+/* -------------- stoimost-uslug ------------- */
+#article table {
+  border: 1px solid;
+  border-collapse: collapse;
+  margin: 0 0 1em;
+  width: 100%;
+}
+/* -------------- news ------------- */
+#article .all-news .all-news-content {
+  width: 520px;
+  float: left;
+  margin: 0;
+  padding-left: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
