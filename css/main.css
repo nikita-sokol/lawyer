@@ -59,6 +59,22 @@ body {
   margin: 0 35px 0 0;
   background: url(../img/news-line.png) no-repeat right top;
 }
+#footer .info-block {
+  float: left;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#footer .copy-made-block {
+  float: right;
+  width: 200px;
+  margin-top: 25px;
+  margin-right: 0;
+}
+#footer .footer-inner * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
 /* -------------- chleny-kollegii ------------- */
 .member-board + .member-board {
   margin-top: 70px;

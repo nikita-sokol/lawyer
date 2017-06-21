@@ -38,7 +38,7 @@
   }
   #footer .info-block {
     float: left;
-    width: 240px;
+    width: 100%;
   }
   #footer .phone-block {
     width: 100%;
@@ -68,6 +68,25 @@
     width: 340px;
     float: left;
     padding-left: 20px;
+  }
+  #footer .info-block {
+    float: left;
+    width: 300px;
+  }
+  #footer .yandex-block {
+    float: left;
+    font: 14px/14px open_sans;
+    text-align: left;
+    margin-right: 0;
+    margin-top: 30px;
+    padding-left: 10px;
+    width: 100%;
+  }
+  #footer .copy-made-block {
+    float: right;
+    width: 200px;
+    margin-top: 0px;
+    margin-right: 0;
   }
 }
 @media only screen and (max-width: 749px) {
